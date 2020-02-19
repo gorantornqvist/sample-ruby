@@ -4,7 +4,7 @@ require 'socket'
 class App < Sinatra::Base
 
   get '/' do
-    "Hello SFIT IOD #2, my name is " + Socket.gethostname
+    "Hello SFIT IOD #3, my name is " + Socket.gethostname
   end
 
 end
